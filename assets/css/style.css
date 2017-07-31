@@ -1,0 +1,383 @@
+
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/*=======================================
+    GENERAL STYLES
+==================================================*/
+body {
+    font-family:"Trebuchet MS", sans-serif;
+    font-size:14px;
+    color: #314768;
+
+}
+
+@font-face{
+  font-family: "Trebuchet MS";
+  src: url("../fonts/Trebuchet MS.otf");
+}
+
+
+.nav a {
+    color:#314768 !important;
+    font-weight: bold;
+}
+.navbar-header a {
+    color:#314768 !important;
+   
+}
+
+.text-center {
+    text-align:center;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Trebuchet MS", sans-serif;
+}
+@font-face{
+  font-family: "Trebuchet MS";
+  src: url("../fonts/Trebuchet MS.otf");
+}
+
+
+h1 {
+    line-height:80px;
+    font-weight:900;
+    font-size:80px;
+    padding:30px 20px 10px 20px;
+    font-family:"Moolboran";
+    
+}
+h3 {
+    line-height:40px;
+    padding-bottom:20px;
+    font-family: "Trebuchet MS"
+}
+@font-face{
+  font-family: "Trebuchet MS";
+  src: url("../fonts/Trebuchet MS.otf");
+}
+h2 {
+  font-family: "Trebuchet MS";
+}
+@font-face{
+  font-family: "Trebuchet MS";
+  src: url("../fonts/Trebuchet MS.otf");
+}
+
+h4 {
+    line-height:40px;
+    padding-bottom:20px;
+    font-size: 17px;
+    font-family: "Trebuchet MS"
+
+}
+@font-face{
+  font-family: "Trebuchet MS";
+  src: url("../fonts/Trebuchet MS.otf");
+}
+
+p {
+    font-weight:400;
+    line-height:30px;
+    padding-bottom:20px;
+    font-family: "Trebuchet MS";
+    text-align: justify;
+}
+@font-face{
+  font-family: "Trebuchet MS";
+  src: url("../fonts/Trebuchet MS.otf");
+}
+
+.space-free {
+    height:100px;
+}
+
+.g-pad-bottom {
+    padding-bottom:70px;
+}
+.for-full-back {
+     /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+
+  /* IE 5-7 */
+  filter: alpha(opacity=95);
+
+  /* Netscape */
+  -moz-opacity: 0.95;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0.95;
+
+  /* Good browsers */
+  opacity: 0.95;
+}
+
+section {
+    padding-top:60px;
+}
+
+/*=======================================
+    COLOR CODES
+==================================================*/
+.color-white {
+   background-color:#fff!important;
+}
+.color-dark {
+   background-color:#314768!important;
+
+
+}
+
+.color-light {
+   background-color:#F5FBFD!important;
+}
+
+/*=======================================
+    HEADER STYLES
+==================================================*/
+.head-main {
+    font-family:"chromia";
+    font-size:70px !important;
+    font-weight:900!important;
+    color:#314768!important;
+    padding:60px 5px 5px 10px;
+}
+
+@font-face{
+  font-family: "chromia";
+  src: url("../fonts/chromia.otf");
+}
+
+
+.head-sub-main {
+    font-family:"Moolboran";
+    font-size:80px !important;
+    font-weight:400!important;
+    color:#FFFFFF!important;
+    padding: 2px 5px 0px 10px;
+
+@font-face{
+  font-family: "Moolboran";
+  src: url("../fonts/Moolboran.ttf");
+}
+
+
+
+}
+.head-last {
+    font-family: "Trebuchet MS";
+    font-size:40px !important;
+    font-weight:600!important;
+    color:#314768!important;
+    padding:0px 5px 150px 5px;
+    
+}
+
+/*=======================================
+    NAVIGATION STYLES
+==================================================*/
+
+
+nav {
+	position: absolute;
+	width: 100%;
+    background: #fff;
+    z-index:99;
+}
+.fixed {
+	position: fixed; 
+	top: 0; 
+	min-height: 50px; 
+	z-index: 99;
+}
+
+.navbar-inverse {
+background: #FFFFFF;
+border-color: #3D3D3D;
+}
+
+/*=======================================
+    ABOUT TEAM STYLES
+==================================================*/
+
+.team-member {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.team-member > img {
+    float: left;
+    width: 100%;
+}
+.team-member > h3 {
+ /*   background: rgba(95, 154, 255, 0.85);*/
+    background: RGBa(49,71,104,0.85);
+    bottom: 25px;
+    color:#fff;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 16px;
+    padding: 15px 0;
+    position: absolute;
+    text-align: center;  
+    width: 100%;
+    
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.team-member:hover > h3 {
+    background: #000;
+    bottom: -55px;
+    color: #FFFFFF;	
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+
+/*=======================================
+    PRICING STYLES
+==================================================*/
+
+
+.plan {
+    background: #eef1f3;
+    padding: 0 0 15px 0;
+    margin: 30px 0px;
+    list-style: none;
+    text-align: center;
+  
+    -webkit-transition: all 0.2s ease;
+       -moz-transition: all 0.2s ease;
+         -o-transition: all 0.2s ease;
+            transition: all 0.2s ease;
+}
+
+.plan:hover {
+    -webkit-transform: scale(1.2);
+       -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+         -o-transform: scale(1.2);
+            transform: scale(1.2);
+}
+
+.plan li {
+    padding: 15px 0px;
+    color: #434749;
+    border-top: 1px dashed #000;
+}
+
+.plan li.plan-head {
+   padding: 15px 0px;
+background-color: #000000;
+color: #FFFFFF;
+line-height: 20px;
+font-size: 20px;
+font-weight: 600;
+border: none;
+   }
+
+.plan li.main-price {
+   padding: 25px 0px;
+background-color: #AA570A;
+color: #fff;
+border: none;
+font-weight: 900;
+font-size: 30px;
+}
+
+/*=======================================
+    SERVICE STYLES
+==================================================*/
+
+
+.service-div {
+	width: 100%;
+	min-height: 100px;
+	background-color: #F2F4F6;
+	box-shadow: none;
+	border: 0;
+    padding:20px;
+	-webkit-border-radius: 20px 20px 10px 10px;
+	-moz-border-radius: 20px 20px 10px 10px;
+	border-radius: 20px 20px 10px 10px;
+    margin-bottom:30px;
+}
+/*=======================================
+    CONTACT STYLES
+==================================================*/
+
+#social-icon a {
+    color:#616161!important;
+    margin-right:10px;
+}
+.contact-cls {
+    font-size:20px;
+    line-height:40px;
+    font-family: "Trebuchet MS";
+  }
+/*=======================================
+    FOOTER STYLES
+==================================================*/
+
+
+#footer {
+    background-color:#FFFFFF;
+    color:#fff;
+    padding:20px 50px 20px 50px;
+    text-align:right;
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 0px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.crew{
+
+    padding-top:50px;
+}
+
+.logospartners{
+
+  padding-right:200px;
+
+}
+
+
+hr.style1{
+  border-top: 2px solid #1E87C1;
+  width:1250px; 
+  position:relative;
+  left:-250px;
+  bottom: 40px
+  }
+
+  hr.style2{
+  border-top: 2px solid #1E87C1;
+  width:1250px; 
+  position:relative;
+  left:-40px;
+  bottom: 40px
+  }
+  
+   
